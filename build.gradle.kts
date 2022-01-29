@@ -36,14 +36,13 @@ publishing {
                     developer {
                         id.set("umang91")
                         name.set("Umang Chamaria")
-                        email.set("umangchamaria@gmail.com")
-                    }
+                    }ß
                 }
                 scm {
                     // version control meta data
-                    connection.set("scm:git:git://example.com/my-library.git")
-                    developerConnection.set("scm:git:ssh://example.com/my-library.git")
-                    url.set("http://example.com/my-library/")
+                    connection.set("scm:git@github.com:umang91/androidx-version-catalog.git")
+                    developerConnection.set("scm:git@github.com:umang91/androidx-version-catalog.git")
+                    url.set("http://github.com/umang91/androidx-version-catalogß")
                 }
             }
         }
