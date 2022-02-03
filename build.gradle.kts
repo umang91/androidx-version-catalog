@@ -20,7 +20,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "dev.assemblage"
             artifactId = "androidx-catalog"
-            version = "0.0.1"
+            version = "0.0.2"
             from(components["versionCatalog"])
             pom {
                 name.set("Androidx Catalog")
@@ -36,13 +36,13 @@ publishing {
                     developer {
                         id.set("umang91")
                         name.set("Umang Chamaria")
-                    }ß
+                    }
                 }
                 scm {
                     // version control meta data
                     connection.set("scm:git@github.com:umang91/androidx-version-catalog.git")
                     developerConnection.set("scm:git@github.com:umang91/androidx-version-catalog.git")
-                    url.set("http://github.com/umang91/androidx-version-catalogß")
+                    url.set("http://github.com/umang91/androidx-version-catalog")
                 }
             }
         }
